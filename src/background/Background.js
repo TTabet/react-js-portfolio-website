@@ -6,7 +6,7 @@ import fallbackImage from "../assets/fallback-image.png";
 const background = () => {
     return (
         <>
-        <div className="shadowOverlay"></div>
+        <div className="shadow-overlay"></div>
         <video
         playsInline
         autoPlay
@@ -14,9 +14,9 @@ const background = () => {
         loop
         preload="auto"
         id="bg"
-        poster="fallbackImage"
+        poster={fallbackImage}
         >
-            <source src={video} type="video?mp4"></source>
+            <source src={video} type="video/mp4"/>
             </video>
         </>
     );
