@@ -1,19 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 
+@font-face {
+    font-family: "LeagueSpartanBold";
+    src: url("../assets/LeagueSpartan-Bold.otf");
+  }
+
 body{
-    font-family: "Russo One", sans-serif;
-    color:mediumpurple;
+    font-family: "LeagueSpartanBold", sans-serif;
+    color:white;
     -webkit-tap-highlight-color: transparent;
 }
 
 :root {
-    --purple: #853282;
-    --blue: #3d79a1;
-    --red: #ad4747;
+    --purple: #9200bebd;
+    --jade: #00a524bd;
+    --blue: #0084a5bd;
     --transparent: #00000000;
     --radius-left: 3rem 0 0 3rem;
     --radius-right: 0 3rem 3rem 0;
 }
+
+a.link {
+    text-align: justify;
+    color: #0084a5bd;
+}
+
     button:hover,
     .class-sub-container a:hover,
     .project-item:hover,

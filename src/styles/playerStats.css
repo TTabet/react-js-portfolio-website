@@ -27,18 +27,32 @@ h2 {
 
 #playerStats__lines__thick {
     display: block;
-    top: 0;
-    left: 0;
     background-color: white;
     height: 0.2rem;
-    width: 5.4rem;
+    width: 5.2rem;
 }
 
 #playerStats__lines__thin {
     display: block;
-    top: 0;
-    left: 0;
-    background-color: white;
+    background-color: rgb(162, 162, 162);
     height: 0.1rem;
-    width: 6.3rem;
+    width: 7.55rem;
+}
+
+@media (max-width: 1100px) {
+    #playerStats {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 9rem;
+        height: 2.7rem;
+        top: 2rem;
+    }
+    h1 {
+        font-size: 0.9rem;
+    }
+    h2,
+    h3,
+    p {
+        font-size: 0.7rem;
+    }
 }
