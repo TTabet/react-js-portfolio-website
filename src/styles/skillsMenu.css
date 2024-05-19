@@ -3,7 +3,7 @@
     position: fixed;
     display: flex;
     flex-direction: column;
-    top: 30%;
+    top: 36%;
     right: 15vw;
     align-items: flex-end;
   }
@@ -17,6 +17,9 @@
     align-items: center;
     cursor: pointer;
   }
+  .skill-item h2 {
+    color: rgb(180, 180, 180);
+  }
   
   .skill-title {
     font-size: 1rem;
@@ -26,12 +29,23 @@
   .skill-item.activeSkill .skill-title {
     font-size: 1.5rem;
   }
+  .skill-item.activeSkill h2 {
+    color: white;
+  }
   
   .activeSkill {
     border-radius: var(--radius-left);
     cursor: default;
   }
   
+  .skill-item:nth-child(1) {
+    border-radius: var(--radius-left);
+    background: linear-gradient(270deg, #ffffff00, var(--jade-transparent) 70%);
+  }
+  .skill-item:nth-child(2) {
+    border-radius: var(--radius-left);
+    background: linear-gradient(270deg, #ffffff00, var(--purple-transparent) 70%);
+  }
   .skill-item.activeSkill:nth-child(1) {
     background: linear-gradient(270deg, #ffffff00, var(--jade) 70%);
   }
@@ -141,7 +155,7 @@
   @media (max-width: 700px) {
     .menu {
       width: 10rem;
-      top: 30%;
+      top: 21%;
       left: 50%;
       transform: translateY(-50%);
     }

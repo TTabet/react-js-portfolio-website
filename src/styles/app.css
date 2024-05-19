@@ -1,36 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 
 @font-face {
-    font-family: "LeagueSpartanBold";
-    src: url("../assets/LeagueSpartan-Bold.otf");
-  }
+  font-family: "LeagueSpartanBold";
+  src: url("../assets/LeagueSpartan-Bold.otf");
+}
 
-body{
-    font-family: "LeagueSpartanBold", sans-serif;
-    color:white;
-    -webkit-tap-highlight-color: transparent;
+body {
+  font-family: "LeagueSpartanBold", sans-serif;
+  color: white;
+  -webkit-tap-highlight-color: transparent;
 }
 
 :root {
-    --purple: #9200bebd;
-    --jade: #00a524bd;
-    --blue: #0084a5bd;
-    --transparent: #00000000;
-    --radius-left: 3rem 0 0 3rem;
-    --radius-right: 0 3rem 3rem 0;
+  --purple: #9200bebd;
+  --jade: #00a524bd;
+  --blue: #0084a5bd;
+  --purple-transparent: #9200be54;
+  --jade-transparent: #00a52454;
+  --blue-transparent: #0084a554;
+  --grey: #8b8b8bbd;
+  --transparent: #00000000;
+  --radius-left: 3rem 0 0 3rem;
+  --radius-right: 0 3rem 3rem 0;
 }
 
-a.link {
-    text-align: justify;
-    color: #0084a5bd;
+button:hover,
+.class-sub-container a:hover,
+.project-item:hover,
+.skill-item:hover,
+.item:not(.active):hover,
+.sub-container-2:not(.active-subheading):hover,
+.sub-container-3:not(.active-subheading):hover {
+  background-image: linear-gradient(90deg, #ffffff00, #ffffff45 50%, #ffffff00);
 }
-
-    button:hover,
-    .class-sub-container a:hover,
-    .project-item:hover,
-    .skill-item:hover,
-    .item:not(.active):hover,
-    .sub-container-2:not(.active-subheading):hover,
-    .sub-container-3:not(.active-subheading):hover {
-        background-image: linear-gradient(90deg, #ffffff00, #ffffff45 50%, #ffffff00);
-    }
