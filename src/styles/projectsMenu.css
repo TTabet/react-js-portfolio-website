@@ -25,6 +25,22 @@
     align-items: center;
     cursor: pointer;
   }
+
+  .project-item title {
+    color: rgb(180, 180, 180);
+  }
+  .project-item:nth-child(1) {
+    border-radius: var(--radius-left);
+    background: linear-gradient(270deg, #ffffff00, var(--jade-transparent) 70%);
+  }
+  .project-item:nth-child(2) {
+    border-radius: var(--radius-left);
+    background: linear-gradient(270deg, #ffffff00, var(--purple-transparent) 70%);
+  }
+  .project-item:nth-child(3) {
+    border-radius: var(--radius-left);
+    background: linear-gradient(270deg, #ffffff00, var(--blue-transparent) 70%);
+  }
   
   .project-item.activeProject .title {
     color: white;

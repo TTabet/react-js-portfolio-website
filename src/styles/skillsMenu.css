@@ -67,16 +67,6 @@
     margin: 0;
   }
   
-  .menu {
-    width: 19rem;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    top: 50%;
-    transform: translateY(-25%);
-    right: 15vw;
-  }
-  
   .skill-sub-container-1,
   .skill-sub-container-2 {
     display: flex;
@@ -152,11 +142,12 @@
       width: 12em;
     }
   }
-  @media (max-width: 700px) {
+  /*@media (max-width: 700px) {
     .menu {
       width: 10rem;
       top: 21%;
       left: 50%;
       transform: translateY(-50%);
     }
-  }
+  }*/
+  

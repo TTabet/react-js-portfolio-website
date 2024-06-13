@@ -55,7 +55,7 @@ a {
         transform: translateX(0)
     }
     .nav {
-        top: calc(100vh - 9rem);
+        top: calc(100vh - 11rem);
         transform: translateX(-50%);
     }
 
